@@ -1,0 +1,95 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://i.postimg.cc/8zfkt4dd/fundo-restrito.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+input[type=button], input[type=reset], input[type=file]  {
+    background-color: #56baed;
+    border: none;
+    width: 85%;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    -webkit-box-: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-left: 8%;
+  }
+  
+  input[type=button]:hover, input[type=reset]:hover, input[type=file]:hover  {
+    background-color: #39ace7;
+  }
+  
+  input[type=button]:active, input[type=reset]:active, input[type=file]  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  
+  h3 {
+      text-align: center !important;
+  }
+
+  input[type=submit]  {
+    background-color: #ed5656;
+    border: none;
+    width: 70%;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    -webkit-box-: 0 10px 30px 0 rgba(233, 95, 95, 0.4);
+    box-shadow: 0 10px 30px 0 rgba(233, 95, 95, 0.4);
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-left: 15%;
+  }
+  
+  input[type=submit]:hover  {
+    background-color: #e73939;
+  }
+  
+  input[type=submit]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
